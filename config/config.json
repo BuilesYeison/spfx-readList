@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "read-procesos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/readProcesos/ReadProcesosWebPart.js",
+          "manifest": "./src/webparts/readProcesos/ReadProcesosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReadProcesosWebPartStrings": "lib/webparts/readProcesos/loc/{locale}.js"
+  }
+}

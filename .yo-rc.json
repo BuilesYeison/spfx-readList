@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.11.0",
+    "libraryName": "read-procesos",
+    "libraryId": "60cecd11-5536-4493-bb15-c993e87cc5f7",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
